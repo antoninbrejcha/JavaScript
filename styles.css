@@ -1,11 +1,12 @@
 .main-page {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding-bottom: 5rem;
 }
 .btn {
   width: 35%;
@@ -55,7 +56,17 @@ h1 {
   width: 100%;
   margin-top: 20px;
 }
-.state{
+.state {
   font-size: 1.5rem;
   min-width: 160px;
+}
+.img {
+  width: 30vw;
+  min-width: 400px;
+}
+#glowing-lamp {
+  display: block;
+}
+#lamp {
+  display: none;
 }
